@@ -7,7 +7,7 @@ import AppLayout from './Pages/AppLayout.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/NovaMobiles/">
    <AppLayout/>
     </BrowserRouter>
   </StrictMode>,
